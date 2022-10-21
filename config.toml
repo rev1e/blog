@@ -1,0 +1,23 @@
+baseURL = "https://rev1e.me/"
+languageCode = "en-us"
+
+title = "rev1e blog"
+
+theme="minimal"
+
+[markup.goldmark.renderer]
+	unsafe=true
+
+[params]
+	mainSections = ["posts"]
+	copyright = "Copyright (c) 2022 rev1e"
+	description = "my blog about programming"
+
+[menu]
+	[[menu.main]]
+		name = "contact"
+		url = "/contact"
+	[[menu.main]]
+		name = "rss"
+		url = "/index.xml"
+
